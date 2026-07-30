@@ -53,6 +53,10 @@ nav a {
     color: #475569;
     font-weight: bold;
     transition: .3s;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+     flex-direction:column;
 }
 
 nav a:hover {
@@ -92,6 +96,7 @@ nav a:hover {
     display: flex;
     justify-content: center;
     padding-left: 80px;
+    max-width:100%;
 }
 
 
@@ -272,35 +277,88 @@ footer {
 
 /* MOBILE */
 
-@media (max-width: 768px) {
+@media (max-width: 768px){
 
-    main {
-        padding: 20px;
+    main{
+        padding:20px;
     }
 
-    nav {
-        gap: 15px;
-        flex-wrap: wrap;
+    nav{
+        width:100%;
+        gap:20px;
+        padding:20px;
+        flex-wrap:wrap;
     }
 
-    .hero h1 {
-        font-size: 4rem;
-        letter-spacing: 4px;
+    .hero{
+        flex-direction:column;
+        gap:50px;
+        text-align:center;
+        min-height:auto;
+        padding:50px 0;
     }
 
-    .hero p {
-        font-size: 1.1rem;
+    .hero-text{
+        border:none;
+        padding:0;
+        text-align:center;
     }
 
-    section h2 {
-        font-size: 2rem;
+    .hero h1{
+        font-size:3rem;
+        line-height:1.1;
     }
 
-    .card {
-        min-width: 280px;
+    .hero h2{
+        font-size:1.1rem;
     }
+
+    .hero-buttons{
+        justify-content:center;
+    }
+
+    .hero-image img{
+        width:280px;
+        height:280px;
+    }
+
+    .hero-image::before{
+        width:320px;
+        height:320px;
+    }
+
+    .cards{
+        flex-direction:column;
+        overflow:visible;
+    }
+
+    .card{
+        min-width:100%;
+    }
+
+    section h2{
+        font-size:2rem;
+        text-align:center;
+    }
+
+    .sobre p{
+        text-align:center;
+    }
+
+    .contato{
+        display:flex;
+        flex-direction:column;
+        gap:20px;
+    }
+
+    .whatsapp-float{
+        width:60px;
+        height:60px;
+        right:20px;
+        bottom:20px;
+    }
+
 }
-
 .hero-buttons{
     display: flex;
     gap: 20px;
