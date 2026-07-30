@@ -1,48 +1,52 @@
-# 🐶 PetCare
+# 💼 Landing Page - Matheus Gimenes | Consultor de Consórcios
 
-Projeto desenvolvido para praticar HTML, CSS e JavaScript durante meus estudos de Desenvolvimento Web.
+Landing page desenvolvida para apresentar os serviços de Matheus Gimenes, consultor especializado em consórcios.
 
-A proposta é criar um site completo para um pet shop, contendo informações sobre produtos, curiosidades sobre pets e recursos interativos utilizando JavaScript.
+O objetivo do projeto é oferecer uma experiência moderna, intuitiva e profissional para clientes interessados em planejamento financeiro, aquisição de imóveis, veículos e investimentos por meio do consórcio.
 
-## 🚀 Objetivos do Projeto
+## ✨ Funcionalidades
 
-- Praticar HTML semântico
-- Aprimorar estilização com CSS
-- Desenvolver responsividade para dispositivos móveis
-- Aplicar JavaScript para interatividade
-- Organizar um projeto real para portfólio
+- Hero moderno com destaque para o consultor
+- Navegação por seções
+- Área "Sobre"
+- Cards com os principais diferenciais
+- Botão flutuante para WhatsApp
+- Design responsivo
+- Animações suaves
+- Layout inspirado em páginas corporativas
 
-## 🛠️ Tecnologias Utilizadas
+## 🛠️ Tecnologias
 
 - HTML5
 - CSS3
 - JavaScript
-- Git
-- GitHub
+- Google Fonts (Poppins)
+- Font Awesome
 
-## 📋 Funcionalidades Planejadas
+## 🎯 Objetivo
 
-- [ ] Página inicial
-- [ ] Seção de produtos
-- [ ] Curiosidades sobre cães e gatos
-- [ ] Área de contato
-- [ ] Menu responsivo
-- [ ] Filtro de produtos
-- [ ] Barra de pesquisa
-- [ ] Calculadora de idade pet
-- [ ] Melhorias visuais e animações
+Criar uma landing page elegante, transmitindo confiança, profissionalismo e facilidade de contato para potenciais clientes.
 
-## 📱 Responsividade
+## 📁 Estrutura
 
-O projeto será desenvolvido com foco em boa experiência tanto para computadores quanto para dispositivos móveis.
+```
+📂 Projeto
+│── index.html
+│── style.css
+│── script.js
+│── README.md
+└── assets/
+    ├── images/
+    └── icons/
+```
 
-## 🎯 Objetivo de Aprendizado
+## 📱 Contato
 
-Este projeto faz parte da minha jornada de estudos em Análise e Desenvolvimento de Sistemas (ADS), com foco na construção de projetos próprios para fortalecer meus conhecimentos em desenvolvimento front-end.
-
-## 👨‍💻 Autor
-
-Gustavo Henrique
+Caso queira conhecer mais dos meus projetos:
 
 - GitHub: https://github.com/Gustavo-Campagna
 - LinkedIn: https://linkedin.com/in/gustavo-henrique
+
+---
+
+Desenvolvido por **Gustavo Henrique** 🚀
